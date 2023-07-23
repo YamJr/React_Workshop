@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 } */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+.container h2{
+      text-align: center;
+      margin: 30px 0px;
+}
+.row{
+  /* border: 1px solid black; */
+  margin: 30px;
+  padding: 20px;
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: center;
+}
+.row h3{
+  text-align: center;
+  margin: 40px 0px;
+}
+.col-md-4{
+  border: 1px solid black;
+  margin: 7px;
+  padding: 10px;
+}
+.images{
+  width: 200px;
+  height: auto;
+ justify-content:center;
+ margin: 10px;
+}
+.col-md-4 p{
+  margin: 5px;
+  text-align: center;
+}

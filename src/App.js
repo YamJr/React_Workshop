@@ -23,7 +23,7 @@ function App() {
             {/* <div className='col-md-4'> */}
               {book.books.map((_book,key)=>{
               return <div className='col-md-4'>
-                  <img src={_book.book_image} />
+                  <img src={_book.book_image} alt='books' className='images' />
                   <p>Title:{_book.title}</p>
                   <p>Author:{_book.author}</p>
                   <p>Publisher:{_book.publisher}</p>
